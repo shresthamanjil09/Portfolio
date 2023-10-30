@@ -1,0 +1,275 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    width: 250px;
+    position: fixed;
+    top: 5px;
+    left: -18px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+#navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    padding: 12px;
+}
+.nav-link {
+    color: rgb(246, 245, 245);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+.nav-link:hover {
+    background-color: rgb(114, 114, 218);
+    border-radius: 20px;
+}
+
+.man {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    background-color: rgb(202, 181, 119)
+}
+.welcome-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(49, 48, 48);
+    margin: 0;
+}
+h1 {
+    font-weight: bold;
+    font-size: 70px;
+    color: #ede7e7;
+}
+
+.welcome-section>p {
+    font-size: 30px;
+    color: rgb(192, 68, 68)
+}
+#welcome-section q {
+    font-size: 24px;
+    font-style: italic;
+    color: blanchedalmond;
+}
+#welcome-section h1,
+#welcome-section p {
+    margin: 8px;
+}
+.projects {
+
+    width: 100%;
+    height: 75vh;
+    background-color: rgba(49, 47, 65, 0.551);
+    margin-top: 0;
+}
+h2 {
+    padding: 50px 0 20px 0;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.projects>div {
+    display: inline-block;
+    text-align: center;
+}
+.projects>div>img {
+    width: 450px;
+    height: 200px;
+}
+.tribute,
+.guitar,
+.survey {
+    border: 0px transparent;
+    margin: 26px 26px 40px 26px;
+    background-color: rgb(27, 27, 103);
+}
+.project-tile {
+    display: block;
+}
+.project-tile {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    color: aliceblue;
+}
+.project-tile:hover {
+    color: rgb(174, 33, 33);
+}
+button {
+    color: aliceblue;
+    background-color: black;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    margin: auto;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: rgb(75, 24, 34);
+}
+.contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 40vh;
+    background-color: rgb(49, 48, 48);
+    color: rgb(211, 218, 224);
+}
+
+.contact h3 {
+    font-size: 50px;
+}
+.contact p {
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+.contact a {
+    text-decoration: none;
+    font-size: 25px;
+    color: aliceblue;
+}
+.github {
+    padding: 10px 10px 30px 10px;
+}
+.line {
+    border: 2px solid red;
+}
+#footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+#footer a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: #7158e1;
+}
+
+.github:hover {
+    -webkit-animation: bounce 1s;
+    animation: bounce 1s;
+}
+
+.freecodecamp:hover {
+    -webkit-animation: bounce 1s;
+    animation: bounce 1s;
+}
+@-webkit-keyframes bounce {
+
+    0%,
+    20%,
+    60%,
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+@keyframes bounce {
+
+    0%,
+    20%,
+    60%,
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+@media(max-width: 945px) {
+ 
+    h2 {
+        font-size: 30px;
+    }
+    .projects>div>img {
+        width: 16rem;
+
+    }
+    .contact h3 {
+        font-size: 30px;
+    }
+    .tribute,
+    .guitar,
+    .survey {
+        margin: 26px 16px 40px 16px;
+    }
+}
